@@ -1,0 +1,24 @@
+package loopTest1216;
+
+import java.util.Scanner;
+
+public class Loop5 {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("원하는 구구단 입력: ");
+		int gugu = s.nextInt();
+		int gop = 0;
+		int result = 0;
+		
+		
+		for(int i=0; i<9; i++) {
+			System.out.printf("%dx%d=%d\n",gugu,(i+1),gugu*(i+1));
+		}
+		
+		
+
+
+	}
+
+}

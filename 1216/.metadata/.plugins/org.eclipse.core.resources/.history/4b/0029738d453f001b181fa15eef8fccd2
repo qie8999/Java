@@ -1,0 +1,14 @@
+package loopTest1216;
+
+public class Loop1 {
+
+	public static void main(String[] args) {
+		for(int i = 0; i<5; i++ ) {// i=0은 초기값 i j k 로 많이 나온다
+			// i가 5보다 적을 때까지, i가 증가한다
+			System.out.println("반복 횟수: " + i);
+			
+		}
+
+	}
+
+}

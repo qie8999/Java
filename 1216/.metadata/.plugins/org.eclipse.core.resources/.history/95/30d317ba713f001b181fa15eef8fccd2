@@ -1,0 +1,14 @@
+import java.util.Random;
+
+public class LoopEx3_2 {
+
+	public static void main(String[] args) {
+		
+		for(int i=0; i<5; i++) {
+			Random rand =new Random();
+			int num = rand.nextInt(45) + 1;
+		}
+
+	}
+
+}

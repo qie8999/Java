@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class LoopEx1_1 {
+
+	public static void main(String[] args) {
+		System.out.println("---------------------------");
+		System.out.println("  Â¦¼ö, È¦¼ö ±¸ºÐ ÇÁ·Î±×·¥ v1.0 ");
+		System.out.println("---------------------------");
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println((i+1)+". Num ==>"+ num );
+		int num = s.nextInt();
+		
+		int i = 0;
+		while(i<5) {
+			if((i+1)%2 == 0) {
+				
+				System.out.println("Â¦¼öÀÔ´Ï´Ù");
+			}else {
+				
+				System.out.println("È¦¼öÀÔ´Ï´Ù");
+			}
+			
+
+		}
+
+	}
+
+}
